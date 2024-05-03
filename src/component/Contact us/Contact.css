@@ -1,0 +1,78 @@
+.contact{
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.contact-col{
+    flex-basis: 48%;
+    color: #676767;
+}
+.contact-col p{
+    list-style: .3;
+}
+.contact-col .message-head h2{
+    color: #000F38;
+    font-weight: 500;
+    font-size: 25px;
+}
+.message-head{
+    display: flex;
+    margin: 10px auto;
+    align-items: center;
+}
+.message-head img{
+    width: 25px;
+    margin-left: 10px;
+}
+.contact-icon{
+    display: flex;
+    margin: 10px auto;
+    align-items: center;
+}
+.contact-icon img{
+    margin-right: 10px;
+    width: 25px;
+}
+
+.call{
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+}
+.call img{
+    width: 25px;
+    margin-right: 10px;
+}
+.location{
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+}
+.location img{
+    margin-right: 10px;
+    width:25px;
+}
+.contact form input, .contact form textarea{
+    display: block;
+    width: 100%;
+    background: #EBECFE;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-top: 5px;
+    resize: none;
+}
+.contact-col span{
+    display: block;
+    margin: 20px 0;
+}
+@media (max-width:800px){
+    .contact{
+        display: block;
+    }
+    .contact-col{
+        padding: 20px;
+    }
+}
